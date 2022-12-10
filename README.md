@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/67862935/206852235-be43f333-469b-49e8-aa17-eaf12568f982.jpg">
+  <img src="https://user-images.githubusercontent.com/67862935/206853930-848fd824-fb7e-4f39-a9d4-edcf7dd0e59b.png">
 <p>
   
 <h2>Admin Dashboard</h2>
