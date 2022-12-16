@@ -23,13 +23,13 @@ export default function Dashboard() {
 
   const DisplayData = [
     {
-      label: "Attendance",
+      label: "Attendance (Per Month)",
       value: randomValueGenerator({ digit: 1000 }),
       icon: <ArrowDropUpIcon />,
       iconLabel: "4%",
     },
     {
-      label: "Submissions",
+      label: "Submissions (Per Month)",
       value: randomValueGenerator({ digit: 100 }),
       icon: <ArrowDropUpIcon />,
       iconLabel: "9%",
@@ -38,13 +38,13 @@ export default function Dashboard() {
 
   const GraphCardData = [
     {
-      id: "Attendance",
+      id: "Attendance (Per Month)",
       data: fakeArrayDataGenerator({ count: 9, digit: 100 }),
       brColor: blue[500],
       bgColor: blue[50],
     },
     {
-      id: "Submissions",
+      id: "Submissions (Per Month)",
       data: fakeArrayDataGenerator({ count: 9, digit: 100 }),
       brColor: indigo[500],
       bgColor: indigo[50],
@@ -75,7 +75,10 @@ export default function Dashboard() {
       section graph
       section posts */}
 
-      <PageHeader label="Dashboard" pageTitle="student overview" />
+      <PageHeader
+        label="Dashboard"
+        pageTitle="student attendance/submission overview"
+      />
       <Grid container spacing={3}>
         {DisplayData.map((item, i) => (
           <Grid item xs={10} sm={12} key={i}>
